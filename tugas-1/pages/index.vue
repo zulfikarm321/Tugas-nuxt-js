@@ -75,7 +75,7 @@ export default {
       inputForm: {
         title: '',
         description: '',
-        isDone: '',
+        isDone: false,
       },
       todos: [],
     }
@@ -93,7 +93,7 @@ export default {
       this.showForm = !this.showForm
     },
     resetForm() {
-      this.inputForm = { title: '', description: '', isDone: '' }
+      this.inputForm = { title: '', description: '', isDone: false }
     },
   },
 }
